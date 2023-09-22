@@ -1,0 +1,149 @@
+/* Estilize titulo h1 */
+.title1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+    color:black;
+    background-size: cover;
+    margin:  0;
+    font-size: 60px;
+}
+
+/* Estilize a lista */
+.lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+}
+
+/* Estilize os itens da lista */
+.item_lista {
+    margin: 200px; /* Espaçamento horizontal entre os itens */
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 35px;
+    color: black;
+}
+
+/* Adicione um media query para tornar responsivo */
+@media (max-width: 768px) {
+    .lista {
+        flex-direction: row; /* Empilhe os itens verticalmente */
+        align-items: center; /* Alinhe os itens ao centro verticalmente */
+        display: none;
+    }
+
+    .item_lista {
+        margin: 0 10px; /* Espaçamento horizontal menor entre os itens */
+    }
+}
+
+#img1{
+    width: 33%;
+    
+}
+
+#img2{
+    width: 33%;
+    
+}
+
+#img3{
+    width: 33%;
+    
+}
+
+.fotos_comida{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .fotos_comida {
+        flex-direction: column; /* Empilhe os itens verticalmente */
+        align-items: center; /* Alinhe os itens ao centro verticalmente */
+        
+    }
+
+    .fotos_comida {
+        width: 100%;
+        margin: 0; /* Espaçamento horizontal menor entre os itens */
+    }
+    #img1{
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 10%;
+    }
+    #img2{
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #img3{
+        width: 100%;
+        padding-top: 10%;
+    }
+}
+
+h1{
+    padding-top: 2.5%;
+}
+
+/* Defina a imagem como plano de fundo do elemento <body> */
+body {
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página é rolada */
+    font-family: 'Roboto', sans-serif;
+    
+}
+.title_Doces{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.modo_preparo{
+    color: white;
+}
+
+.desktop{
+    display: none;
+   
+    
+}
+
+@media screen and (max-width: 768px) {
+    .desktop {
+        flex-direction: row; /* Empilhe os itens verticalmente */
+        align-items: center; /* Alinhe os itens ao centro verticalmente */
+        display: block;
+        font-size: 25px;
+        color: black;
+    }
+
+}
+.divDoces{
+    color: black;
+}
+
+#imgReceitas{
+    width: 600px;
+    height: 450px;
+}
+
+
+
+
+.lista_menu{
+    margin-left: 50px;
+    font-size: 25px;
+    
+    
+ 
+}
