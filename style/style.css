@@ -114,8 +114,6 @@ body {
 
 .desktop{
     display: none;
-   
-    
 }
 
 @media screen and (max-width: 768px) {
@@ -136,6 +134,18 @@ body {
     width: 600px;
     height: 450px;
 }
+
+@media (max-width: 768px){
+    #imgReceitas{
+        width: 90%;
+        height: 300px;
+    }
+    .title_Doces{
+        font-size: 40px;
+    }
+}
+
+
 
 
 
